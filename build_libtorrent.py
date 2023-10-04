@@ -64,6 +64,16 @@ sudo('cpufreq-set', '-g ondemand')         #restore  CPU
 # --- done
 cd('..')
 print '=== done ==='
+./configure = 
+me > ./build_libtorrent.py -h
+usage: build_libtorrent.py [-h] [--gitclone] [--configure]
+
+build libtorrent
+
+optional arguments:
+  -h, --help   show this help message and exit
+  --gitclone   re-git the source code
+  --configure  re-configure the build
 
 
 
